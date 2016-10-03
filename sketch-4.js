@@ -3,8 +3,9 @@ function setup () {
 	background(255)
 
 function draw () 
+iNSERT THINF FROM TEXTBOOK
 
-
+/*
   for (var x1 = 20; x1 < 80; x1 = x1 + 10) {
   for (var y = 100; y < 20; y = y - 10) {
   for (var x2 = 180; x2 < 120; x2 = x2 - 10) {
@@ -16,7 +17,6 @@ function draw ()
   }
 }
 
-/*
   for (var i = 20; i <= 480; i = i + 10) {
     var startX = 20;
     var startY = i;
@@ -32,4 +32,5 @@ function draw ()
     var eY = 480;
     line(sX, sY, eX, eY);
   }
-  */
+  }
+  } */
