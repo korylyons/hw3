@@ -1,13 +1,13 @@
 function setup () {
-	createCanvas(200,200)
-	background(255)
-	
-	//should have lines go down by 3 to make it look more exact to the image
+    createCanvas(200,200)
+    background(255)
+    
+    //should have lines go down by 3 to make it look more exact to the image
 
 for (var x = 145; x < 195; x = x + 5) {
 // (var y = 10; y < 10; y = y + 5) {
-//for (var y = 195; y < 195; y = y - 5) {
-//for (var y = 140; y < 140; y = y -5)
+for (var y = 195; y > 0; y = y - 5) {
+//when counting down (using minus) starting point needs to be larger than var >/< # {y>0}
     line(x, 0, x, 200);
 //    line(y, 0, y, 195);
     line(140, 0, 140, 195)
@@ -38,19 +38,18 @@ for (var x = 145; x < 195; x = x + 5) {
     line(15, 0, 15, 70);
     line(10, 0, 10, 65);
     line(5, 0, 5, 60);
-//}
+}
   }
 }
 
 
-		function draw () {
-		}
+        function draw () {
+        }
 /*
 function setup () {
-	createCanvas(200,200)
-	background(255)
-	
-
+    createCanvas(200,200)
+    background(255)
+    
 for (var x = 145; x < 195; x = x + 5) {
 for (var y = 5; y <= 140; y = y + 5) {
 for (var h = 5; h <= -140; h = h + 5)
@@ -58,9 +57,7 @@ for (var h = 5; h <= -140; h = h + 5)
     line(y, 0, y, 190);
   }
 }
-
-
-		function draw () {
-		}
+        function draw () {
+        }
 }
 */
